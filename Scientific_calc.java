@@ -40,21 +40,4 @@ public class Scientific_calc
 		val=sc.nextDouble();
 		System.out.print("Square Root of "+val+" = "+Math.sqrt(val));
 	}
-	
-	void deg_to_rad()
-	{
-		System.out.print("Enter value(in Degree) :- ");
-		val=sc.nextDouble();
-		System.out.print("Degree ="+val+", Radian ="+Math.toRadians(val));
-		
-	}
-	
-	void rad_to_deg()
-	{
-		System.out.print("Enter value(in Radian) :- ");
-		val=sc.nextDouble();
-		System.out.print("Radian ="+val+", Degree ="+Math.toDegrees(val));
-		
-	}
-
 }
