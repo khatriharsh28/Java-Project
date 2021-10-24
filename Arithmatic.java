@@ -64,4 +64,19 @@ public class Arithmatic
 			return fact;
 		}*/
 	}
+	void deg_to_rad()
+{
+System.out.print("Enter value(in Degree) :- ");
+val=sc.nextDouble();
+System.out.print("Degree ="+val+", Radian ="+Math.toRadians(val));
+
+}
+
+void rad_to_deg()
+{
+System.out.print("Enter value(in Radian) :- ");
+val=sc.nextDouble();
+System.out.print("Radian ="+val+", Degree ="+Math.toDegrees(val));
+
+}
 }
