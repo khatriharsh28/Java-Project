@@ -11,7 +11,7 @@ public class Base {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("+-----------------------------------------------+");
 		System.out.println("| 1.Addition \t\t 2.Subtraction \t\t|\n| 3.Multiplication \t 4.Divison \t\t|\n| 5.Factorial \t\t 6.Round Off \t\t|");
-		System.out.println("| 7.Floor \t\t 8.Ceil \t\t|\n| 9.Power(n^m) \t\t 10.Square Root \t|");
+		System.out.println("| 7.Floor \t\t 8.Ceil \t\t|\n| 9.Power(n^m) \t\t 10.Square Root \t|\n| 11.Degree to Radian");
 		System.out.println("| \t***Press any caracter to EXIT*** \t|");
 		System.out.println("+-----------------------------------------------+");
 
@@ -64,8 +64,9 @@ public class Base {
 				case 10:
 					Cal.Sq_rt();
 					break;
-					
-				
+				case 11:
+					Cal.deg_to_rad();
+					break;
 				default:
 				{
 					System.out.println("Invalid Choice");
