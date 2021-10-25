@@ -47,5 +47,13 @@ public class Arithmatic
 		}
 	}
 	
-	
+	double factorial(int num)
+	{
+		fact=1;
+		for(i=2;i<=num;i++)
+		{
+			fact=fact*i;
+		}
+		return fact;
+	}
 }
