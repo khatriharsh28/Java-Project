@@ -47,36 +47,5 @@ public class Arithmatic
 		}
 	}
 	
-	double factorial(int num)
-	{
-		fact=1;
-		for(i=2;i<=num;i++)
-		{
-			fact=fact*i;
-		}
-		return fact;
-		/*
-		if(num==1)
-			return 1;
-		else
-		{
-			fact=num*factorial(num-1);
-			return fact;
-		}*/
-	}
-	void deg_to_rad()
-{
-System.out.print("Enter value(in Degree) :- ");
-val=sc.nextDouble();
-System.out.print("Degree ="+val+", Radian ="+Math.toRadians(val));
-
-}
-
-void rad_to_deg()
-{
-System.out.print("Enter value(in Radian) :- ");
-val=sc.nextDouble();
-System.out.print("Radian ="+val+", Degree ="+Math.toDegrees(val));
-
-}
+	
 }
